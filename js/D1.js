@@ -12,14 +12,19 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-/* I datatype principali in JavaScript sono: stringhe, numeri e booleani.
-1) Stringhe = sono sostanzialmente delle righe di testo costituite da caratteri alfabetici e definite da doppi apici.
-2) Numeri = sono caratteri numerici con cui è possibile effettuare operazioni aritmetiche.
-3) Booleani = sono valori predefiniti in coppia (true, false) in cui uno dei due valori esclude necessariamente l' altro valore. Sono utilizzati principalmente per effettuare controlli su variabili o come condizionali.
-Ci sono altri due tipi di valori: Undefined e Null.
-Undefined indica l'esistenza di una variabile, ma la mancata assegnazione di un valore.
-Null, invece, indica l'assegnazione ad una variabile di un valore "vuoto".
-*/
+//  I datatype principali in JavaScript sono: stringhe, numeri e booleani.
+// 1) Stringhe = sono sostanzialmente un insieme di caratteri alfabetici e sono definite da doppi apici.
+let place = "Matera"
+console.log("My birthday place=", place,"This is a", typeof(place))
+// 2) Numeri = sono caratteri numerici con cui è possibile effettuare operazioni aritmetiche.
+let age = 28
+console.log("My age", age,"This is a", typeof(age))
+// 3) Booleani = sono valori predefiniti in coppia (true, false) in cui uno dei due valori esclude necessariamente l' altro valore. Sono utilizzati principalmente per effettuare controlli su variabili o come condizionali.
+let adult = age > 18
+console.log("Am I an Adult?",adult,"This is a", typeof(adult))
+// Ci sono altri due tipi di valori: Undefined e Null.
+// Undefined indica l'esistenza di una variabile, ma la mancata assegnazione di un valore.
+// Null, invece, indica l'assegnazione ad una variabile di un valore "vuoto".
 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
