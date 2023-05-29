@@ -82,4 +82,6 @@ let name2 = "John"
 console.log("name1 =",name1)
 console.log("name2 =",name2)
 console.log("name1 and name2 are different?",name1 !== name2)
-console.log("if both are in lowercase they're different?", name1.toLowerCase !== name2.toLowerCase)
+// EXTRA
+console.log("Are they different if they're both in lowercase?", name1.toLowerCase() !== name2.toLowerCase())
+console.log("Is name2 still the same?", name2)
